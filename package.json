@@ -1,0 +1,56 @@
+{
+  "name": "flyingcarpet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bignumber.js": "^9.0.0",
+    "copy-to-clipboard": "^3.2.0",
+    "core-js": "^3.3.2",
+    "decimal.js": "^10.2.0",
+    "element-ui": "^2.12.0",
+    "eth-crypto": "^1.5.0",
+    "ethereumjs-util": "^6.2.0",
+    "ethers": "^4.0.39",
+    "fractal-web3": "^1.1.21",
+    "invariant": "^2.2.4",
+    "json-format-highlight": "^1.0.2",
+    "moment": "^2.24.0",
+    "rlp": "^2.2.4",
+    "vant": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^5.2.4",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-typescript": "^4.0.0",
+    "@vue/cli-plugin-unit-mocha": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "chai": "^4.1.2",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "typescript": "~3.5.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
